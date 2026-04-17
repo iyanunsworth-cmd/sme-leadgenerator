@@ -19,7 +19,8 @@
       "Bash(curl -s http://localhost:8501)",
       "mcp__Claude_Preview__preview_start",
       "Bash(curl -s http://localhost:8501/_stcore/health)",
-      "Bash(curl -s http://localhost:8501/script-health-check)"
+      "Bash(curl -s http://localhost:8501/script-health-check)",
+      "Bash(\"C:/Users/iyanu/AppData/Local/Programs/Python/Python312/python.exe\" -c \"import ast; ast.parse\\(open\\('app.py', encoding='utf-8'\\).read\\(\\)\\); print\\('syntax ok'\\)\")"
     ]
   }
 }
