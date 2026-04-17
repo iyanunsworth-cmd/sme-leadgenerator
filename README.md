@@ -61,7 +61,7 @@ python prospect.py --plz <postcode> --type <type> --n <max> [--country <ISO>] [-
 | Flag | Required | Default | Description |
 |---|---|---|---|
 | `--plz` | yes | — | Postcode (works for any country). |
-| `--type` | yes | — | `restaurants`, `cafes`, `bars`, `hair_salons`, `beauty_salons`, `clothing`, `shops` |
+| `--type` | yes | — | `restaurants`, `cafes`, `bars`, `hair_salons`, `beauty_salons`, `clothing`, `shops`, `contractors` |
 | `--n` | yes | — | Max leads to return (after filter + sort). |
 | `--country` | no | `CH` | ISO 3166-1 alpha-2 country code used for Overpass area. |
 | `--min-score` | no | `40` | Filter out leads scoring below this. |
@@ -80,6 +80,9 @@ python prospect.py --plz "SW1A 1AA" --type shops --n 20 --country GB
 
 # Berlin cafes, only strong prospects
 python prospect.py --plz 10115 --type cafes --n 10 --country DE --min-score 50
+
+# Zurich contractors (roofers, plumbers, electricians, gardeners, painters)
+python prospect.py --plz 8048 --type contractors --n 20
 ```
 
 ## Scoring

@@ -14,6 +14,13 @@ TYPE_TO_OSM_FILTERS = {
     "beauty_salons": [("shop", "beauty")],
     "clothing":      [("shop", "clothes")],
     "shops":         [("shop", None)],
+    "contractors":   [
+        ("craft", "roofer"),
+        ("craft", "plumber"),
+        ("craft", "electrician"),
+        ("craft", "gardener"),
+        ("craft", "painter"),
+    ],
 }
 
 

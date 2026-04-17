@@ -20,7 +20,8 @@
       "mcp__Claude_Preview__preview_start",
       "Bash(curl -s http://localhost:8501/_stcore/health)",
       "Bash(curl -s http://localhost:8501/script-health-check)",
-      "Bash(\"C:/Users/iyanu/AppData/Local/Programs/Python/Python312/python.exe\" -c \"import ast; ast.parse\\(open\\('app.py', encoding='utf-8'\\).read\\(\\)\\); print\\('syntax ok'\\)\")"
+      "Bash(\"C:/Users/iyanu/AppData/Local/Programs/Python/Python312/python.exe\" -c \"import ast; ast.parse\\(open\\('app.py', encoding='utf-8'\\).read\\(\\)\\); print\\('syntax ok'\\)\")",
+      "Bash(\"C:/Users/iyanu/AppData/Local/Programs/Python/Python312/python.exe\" -c \"from overpass import TYPE_TO_OSM_FILTERS, build_query; print\\('types:', sorted\\(TYPE_TO_OSM_FILTERS\\)\\); print\\(\\); print\\(build_query\\('8048', 'contractors', 'CH'\\)\\)\")"
     ]
   }
 }
