@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(py --version)",
+      "Bash(py -3 --version)",
+      "Bash(where python *)",
+      "Bash(where py *)",
+      "Read(//c/Users/iyanu/AppData/Local/Programs/**)",
+      "Read(//c/Program Files/**)",
+      "Bash(winget --version)",
+      "Bash(winget install *)",
+      "Bash(\"C:/Users/iyanu/AppData/Local/Programs/Python/Python312/python.exe\" --version)",
+      "Bash(\"C:/Users/iyanu/AppData/Local/Programs/Python/Python312/python.exe\" -m pip install -r requirements.txt)",
+      "Bash(\"C:/Users/iyanu/AppData/Local/Programs/Python/Python312/python.exe\" prospect.py --plz 8032 --type restaurants --n 10)",
+      "Bash(\"C:/Users/iyanu/AppData/Local/Programs/Python/Python312/python.exe\" prospect.py --plz 8032 --type restaurants --n 10 --min-score 20)",
+      "Bash(\"C:/Users/iyanu/AppData/Local/Programs/Python/Python312/python.exe\" -m pip install streamlit pandas)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8501)",
+      "Bash(curl -s -o - -w \"HTTP %{http_code}\\\\n\" http://localhost:8501/_stcore/health)",
+      "Bash(curl -s http://localhost:8501)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -s http://localhost:8501/_stcore/health)",
+      "Bash(curl -s http://localhost:8501/script-health-check)"
+    ]
+  }
+}
